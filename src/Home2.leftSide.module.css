@@ -1,0 +1,122 @@
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#DDDDDD;
+}
+.leftSide {
+    position: absolute;
+    height: 91%;
+    width: 19.44%;
+    top: 4.25%;
+    right: 40px;
+    bottom: 4.25%;
+    left: 40px;
+    border-radius: 30px;
+    background: black;
+}
+.rightExtra {
+    position: absolute;
+    
+    width: 10%;
+    left: 90%;
+}
+
+.contactUs,
+.help {
+    position: absolute;
+    top: 87.92%;
+    left: 17.86%;
+    font-size: var(--font-size-sm);
+    color: white;
+    cursor: pointer;
+}
+
+.contactUs {
+    top: 91.84%;
+}
+
+.settings,
+.users {
+    position: absolute;
+    top: 48.64%;
+    left: 20%;
+    color: white;
+    cursor: pointer;
+}
+
+.users {
+    top: 42.08%;
+}
+
+.dashboard1,
+.schedules,
+.transactions {
+    position: absolute;
+    top: 35.51%;
+    left: 20%;
+    color: white;
+    cursor: pointer;
+}
+
+.transactions {
+    top: 28.94%;
+}
+
+.dashboard1 {
+    top: 22.37%;
+}
+.Icon,.Icon2,.Icon3{
+    height: 15px;
+    width:15px;
+    margin-right: 15px;
+    cursor:pointer;
+}
+.Icon2,.Icon3{
+    height: 18px;
+    width:18px;
+    position: relative;
+    left : 78%;
+    /* margin-left: 10px; */
+}
+.Icon3{
+    border-radius: 7px;
+}
+.Icon21{
+    height: 18px;
+    width:18px;
+    position: relative;
+    left : 75%;
+    top:15%;
+}
+
+.navigation {
+    position: absolute;
+    top: 6.36%;
+    left: 17.86%;
+    font-size: var(--font-size-17xl);
+    color: white;
+}
+
+.board {
+    position: absolute;
+    left: 17.86%;
+    right: 38.21%;
+    top: 6.36%;
+    bottom: 88.98%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.bold {
+    font-weight: bold;
+}

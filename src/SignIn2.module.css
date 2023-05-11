@@ -1,0 +1,256 @@
+.leftSide {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  /* padding-right: 0%; */
+
+  background: #000000;
+}
+.googleLogo {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.appleLogo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.signInWith{
+  display: inline-block;
+  position: relative;
+  top:-5px;
+  font-size: 12px;
+}
+/* input::placeholder {
+  
+  position: relative;
+  
+  left: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #B0B0B0;
+
+} */
+/* input{
+  position: absolute;
+  text-align: left;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+} */
+
+.rightSide {
+  position: absolute;
+  width: 60%;
+  /* padding:0; */
+  height: 100%;
+  left: 40%;
+  top: 0px;
+
+  background: #F5F5F5;
+}
+
+.board {
+  position: absolute;
+  width: 246px;
+  height: 88px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* left: 15%; */
+  /* vertical-align: middle; */
+  /* font-align: center; */
+  /* top: 50%; */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.dontHaveAnContainer {
+  position: absolute;
+  width: 261px;
+  height: 19px;
+  left: 43%;
+  top: 79%;
+  transform: translate(-50%, -50%);
+  /* left: 894px;
+  top: 746px; */
+
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* Secondary Text */
+
+  color: #858585;
+}
+
+.dontHaveAn {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* Secondary Text */
+
+  color: #858585;
+}
+
+.registerHere {
+  color: #346BD4;
+  cursor: pointer;
+}
+
+.signIn2 {
+  position: absolute;
+  width: 131px;
+  height: 44px;
+  left: 33%;
+  top: 26%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+.signInTo {
+  position: absolute;
+  width: 161px;
+  height: 19px;
+  left: 35%;
+  top: 31%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 5px 10px;
+  left: 34%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+  /* border: 2px solid #000000; */
+  background-color: #FFFFFF;
+  color: #858585;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  /* text-decoration: none; */
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.button2 {
+  width: 250px;
+  position: relative;
+  margin-left: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: #000000;
+  cursor: pointer;
+  border-radius: 10px;
+  top:13px;
+}
+
+.signIn1 {
+  position: relative;
+  width: 101.96px;
+  height: 21.71px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.card {
+  position: absolute;
+  left: 25%;
+  right: 37%;
+  top: 42%;
+  bottom: 25%;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.formFields,.blueFields {
+  position: relative;
+  width: 96px;
+  height: 19px;
+  margin-left: 30px;
+  /* padding-top: 50%; */
+  top:8px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+
+  color: #000000;
+}
+.blueFields{
+  color: #346BD4;
+  font-size:14px;
+}
+
+.button3 {
+  width: 250px;
+  height: 20px;
+  position: relative;
+  margin-left: 30px;
+  padding-top: 1%;
+  top:10px;
+  padding-bottom: 1%;
+
+  background: #EAEAEA;
+  border-radius: 10px;
+  border:none;
+}

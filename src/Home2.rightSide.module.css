@@ -1,0 +1,569 @@
+.rightSide {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 25%;
+    top: 0px;
+}
+
+input::placeholder {
+    position: relative;
+    left: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B0B0B0;
+
+}
+
+.searchBar {
+    position: absolute;
+    top: -10px;
+    height: 30px;
+    border: none;
+    font-family: var(--font-lato);
+    font-size: var(--font-size-sm);
+    background-color: white;
+    border-radius: 10px;
+    left: 700px;
+    width: 180px;
+
+}
+
+.header {
+    position: relative;
+    width: 1000px;
+    height: 30px;
+    top: 45px;
+}
+
+.navigation {
+    position: relative;
+    top: 6.36%;
+    left: 17.86%;
+    font-size: var(--font-size-17xl);
+}
+
+.navigation {
+    top: 40px;
+    left: 40px;
+    width: 280px;
+    height: 944px;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+}
+
+.dashboard {
+    position: relative;
+    background-color: var(--background);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-lato);
+}
+
+.dashboard2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-transform: capitalize;
+}
+
+.card,
+.card1,
+.card11,
+.card12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card1 {
+    height: 100%;
+    width: 105%;
+    right: 0;
+    bottom: 0;
+    /* border-radius: var(--br-xl); */
+    border-radius: 20px;
+    background-color: #f4ecdd;
+}
+
+.card11 {
+    right: 0;
+    bottom: 0;
+    /* border-radius: var(--br-xl); */
+    border-radius: 20px;
+    background-color: #f4ecdd;
+    left: 0%;
+    top: 65%;
+    height: 31%;
+    width: 45%;
+    background-color: white;
+}
+
+.card12 {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    left: 50%;
+    top: 65%;
+    height: 31%;
+    width: 45%;
+}
+
+.card {
+    width: 200.05px;
+    height: 110px;
+}
+
+
+.smallnum {
+    position: relative;
+    left: 15%;
+    top: 20%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.lrgnum {
+    position: relative;
+    left: 15%;
+    top: 20%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.graphl,
+.products {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.graphnum {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* Secondary Text */
+
+    color: #858585;
+}
+
+.products {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card3,
+.totalTransactions {
+    position: absolute;
+    top: 90px;
+    left: 25%;
+    width: 221.05px;
+    height: 120px;
+}
+
+.card3 {
+    height: 100%;
+    width: 105%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    border-radius: 20px;
+    background-color: #ddefe0;
+}
+
+
+.vectorIcon {
+    position: absolute;
+}
+
+.vectorIcon {
+    height: 20%;
+    width: 11.94%;
+    top: 16.67%;
+    right: 11.6%;
+    bottom: 63.33%;
+    left: 76.45%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.card5,
+.totalRevenues {
+    position: absolute;
+    top: 90px;
+    left: 0%;
+    width: 221.05px;
+    height: 120px;
+}
+
+.card5 {
+    height: 100%;
+    width: 105%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* border-radius: var(--br-xl); */
+    border-radius: 20px;
+    background-color: #efdada;
+}
+
+.vectorIcon1 {
+    position: absolute;
+    height: 20%;
+    width: 10.54%;
+    top: 16.67%;
+    right: 11.56%;
+    bottom: 63.33%;
+    left: 77.9%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.card7,
+.totalLikes {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 221.05px;
+    height: 120px;
+}
+
+.card7 {
+    height: 100%;
+    width: 105%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* border-radius: var(--br-xl); */
+    border-radius: 20px;
+    background-color: #DEE0EF;
+}
+
+.vectorIcon2 {
+    position: absolute;
+    height: 20%;
+    width: 16.65%;
+    top: 16.67%;
+    right: 11.39%;
+    bottom: 63.33%;
+    left: 71.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.totalUsers {
+    position: absolute;
+    top: 90px;
+    left: 75%;
+    width: 221.05px;
+    height: 120px;
+}
+
+.card9 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+}
+
+.card8,
+.card9,
+.guest {
+    position: absolute;
+}
+
+.card8 {
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 359px;
+}
+
+.topProducts {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    /* font-size: var(--font-size-lg); */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.topProductsCard {
+    position: absolute;
+    top: 82px;
+    left: 60px;
+    width: 134px;
+    height: 134px;
+    color: #000000;
+}
+.pieChartIcon{
+    position: relative;
+    top:25%;
+    left:15%;
+    height:120px;
+    width:120px
+
+}
+
+.topProductsCard {
+    top: 60%;
+    left: 0%;
+    width: 480px;
+    height: 256px;
+    font-family: var(--font-montserrat);
+}
+
+
+.div7 {
+    top: 34px;
+    left: 21px;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-lato);
+    color: var(--secondary-text);
+}
+
+.div6,
+.div7,
+.mayJune1 {
+    position: absolute;
+}
+
+.div6 {
+    top: 70px;
+    left: 244px;
+    width: 98px;
+    height: 36px;
+}
+.l{
+    position: absolute;
+    top: 50px;
+    left: 244px;
+    width: 150px;
+    height: 36px;
+    margin-top: 10px;
+}
+.l2{
+    position: absolute;
+    top: 90px;
+    left: 244px;
+    width: 150px;
+    height: 36px;
+    margin-top: 10px;
+}
+.l3{
+    position: absolute;
+    top: 130px;
+    left: 244px;
+    width: 150px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.basicTees {
+    position: absolute;
+    top: 0;
+    left: 21px;
+}
+
+.div10,
+.div8 {
+    position: absolute;
+    top: 111px;
+    left: 244px;
+    width: 168px;
+    height: 36px;
+}
+
+.div10 {
+    top: 160px;
+    width: 128px;
+}
+
+.checkOperationAtGigaFactorParent,
+.schedulesCard {
+    position: absolute;
+    top: 156px;
+    left: 40px;
+    width: 227px;
+    height: 66px;
+    font-family: var(--font-lato);
+}
+
+.schedulesCard {
+    top: 70%;
+    left: 50%;
+    width: 480px;
+    height: 256px;
+
+}
+
+.todaysSchedule {
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    /* margin-bottom: ; */
+    padding-bottom: 10px;
+    /* padding-block-end: 10px; */
+}
+
+.relpos {
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #666666;
+}
+
+.time,
+.location {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* icon */
+
+    color: #999999;
+}
+
+.task {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+.mayJune1{
+    position:relative;
+    left:70%;
+    top:18%;
+    font-size: 10px;
+}
+.mayJune2{
+    position:relative;
+    left:5%;
+    top:10%;
+    font-size: 10px;
+}
+.seeall{
+    position:absolute;
+    left:70%;
+    top:5%;
+    font-size: 10px;
+}
+
+.activities{
+
+    position: relative;
+    display: inline-block;
+
+    top: 10%;
+    left: 5%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+  }
+
+  .activitiesCard{
+    position: absolute;
+    top: 31.5%;
+    left: 0px;
+    width: 95%;
+    height: 31%;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .actlabels{
+    position: relative;
+    display: inline-block;
+    top: 10%;
+    left: 77%;
+    margin-right: 5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #000000;
+
+  }
+  .linegraph{
+    position: relative;
+
+    /* height: 100%; */
+    width:90%;
+    left:5%;
+    top:10%;
+  }
