@@ -1,6 +1,6 @@
 Deployed Sign In Page : https://mellifluous-kulfi-650b98.netlify.app/ Home Page : https://mellifluous-kulfi-650b98.netlify.app/home
 
-#Google-OAuth Provider was used to provide sign in with Google The screens were designed on Figma, the frontend was made with Vanilla CSS and ReactJS Charts were made with react-charts2.js Line Chart and Pie Charts were made
+Google-OAuth Provider was used to provide sign in with Google The screens were designed on Figma, the frontend was made with Vanilla CSS and ReactJS Charts were made with react-charts2.js Line Chart and Pie Charts were made
 
 
 # Getting Started with Create React App
