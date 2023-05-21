@@ -18,7 +18,7 @@ const SignIn2 = () => {
         navigate("/home")
     }
 
-    const clientId = '931820784096-1p1lambf3rai7l6fk9vo7abrflh2l2uf.apps.googleusercontent.com';
+    const clientId = '931820784096-aomr5augosek9kedd97s1j0nobksjisv.apps.googleusercontent.com';
     const onSuccess = (response) => {
         console.log('Logged in successfully!', response);
         navigate("/home")
